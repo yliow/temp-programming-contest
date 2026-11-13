@@ -65,6 +65,39 @@
 }
 </script>
 
+
+       <style>
+    .contest-schedule {
+      width: 100%;
+      max-width: 900px;
+      border-collapse: collapse;
+      font-family: Arial, sans-serif;
+      font-size: 15px;
+      margin: 20px 0;
+    }
+    .contest-schedule th,
+    .contest-schedule td {
+      border: 1px solid #dddddd;
+      padding: 12px 15px;
+      text-align: left;
+      vertical-align: top;
+      line-height: 1.4;
+    }
+    .contest-schedule thead th {
+      background-color: #003366;
+      color: #ffffff;
+      font-weight: bold;
+    }
+    .contest-schedule tbody tr:nth-child(even) {
+      background-color: #f8f9fa;
+    }
+    .contest-schedule tbody tr:hover {
+      background-color: #eef2f7;
+    }
+  </style>
+
+       
+
     <style>
 
       
@@ -242,20 +275,27 @@
   Here's our <a href="pdf/flyer.pdf">flyer</a> [TO UPDATE].
 </p>
 <p>
+  Students interested in taking part in the online track of
+  CCCS High School Programming Contest #11
+  will invite a teacher to be their proctor and
+  register their school as a CCCS Host Site.
+  The teacher can choose to open the site to students from
+  other schools.
+</p>
+<p>
   Note that you need not form a school team.
   A team can be made up of students from different schools.
   But all members of a team must be at the same site.
   You can choose to be a team of one and work alone.
 </p>
 <p>
+  For registering a CCCS Host Site, proctor, student and team,
+  see section <b>Where do I register?</b> below.
+</p>
+<p>
   The contest committee reserves the right to conduct brief Zoom technical defense interviews
   ("viva voce") with top-ranking online teams (1st–5th place)
   to explain their code logic prior to finalizing official standings and awarding tuition scholarships.
-</p>
-<p>
-  To get things going, you will need to set up a <b>CCCS Host Site</b>
-  or look for one.
-  See section <b>???</b> below.
 </p>
 <p>
   This is the first time more than 10 years we are expanding to an online category.
@@ -269,7 +309,7 @@
 <h2><a name="prizes"></a>Are there prizes? <small><small>[<a href='#top'>goto top</a>]</small></small></h2>
 
 <p>
-  Yes! There will be tuition scholarship prizes (see below).
+  Yes! There will be tuition scholarship prizes.
 </p>
 
 Tuition scholarship prizes for each track are
@@ -326,13 +366,72 @@ Tuition scholarship prizes for each track are
   </ul>
 </p>
 
+
+
+ <table class="contest-schedule">
+    <thead>
+      <tr>
+        <th>Region</th>
+        <th>Local Date &amp; Contest Window (4 Hours)</th>
+        <th>Corresponding Server Window (CST)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>China (CST)</strong></td>
+        <td>Friday, March 5, 2027:<br>1:00 PM &ndash; 5:00 PM CST</td>
+        <td>Thursday, March 4, 2027:<br>11:00 PM &ndash; Friday, March 5, 2027, 3:00 AM CST</td>
+      </tr>
+      <tr>
+        <td><strong>India (IST)</strong></td>
+        <td>Friday, March 5, 2027:<br>1:00 PM &ndash; 5:00 PM IST</td>
+        <td>Friday, March 5, 2027:<br>1:30 AM &ndash; 5:30 AM CST</td>
+      </tr>
+      <tr>
+        <td><strong>Japan (JST)</strong></td>
+        <td>Friday, March 5, 2027:<br>1:00 PM &ndash; 5:00 PM JST</td>
+        <td>Thursday, March 4, 2027:<br>10:00 PM &ndash; Friday, March 5, 2027, 2:00 AM CST</td>
+      </tr>
+   <tr>
+        <td><strong>South Korea (KST)</strong></td>
+        <td>Friday, March 5, 2027:<br>1:00 PM &ndash; 5:00 PM KST</td>
+        <td>Thursday, March 4, 2027:<br>10:00 PM &ndash; Friday, March 5, 2027, 2:00 AM CST</td>
+      </tr>
+      <tr>
+        <td><strong>United States (CST)</strong></td>
+        <td>Saturday, March 6, 2027:<br>1:00 PM &ndash; 5:00 PM CST</td>
+        <td>Saturday, March 6, 2027:<br>1:00 PM &ndash; 5:00 PM CST</td>
+      </tr>
+      <tr>
+        <td><strong>United States (EST)</strong></td>
+        <td>Saturday, March 6, 2027:<br>2:00 PM &ndash; 6:00 PM EST</td>
+        <td>Saturday, March 6, 2027:<br>1:00 PM &ndash; 5:00 PM CST</td>
+      </tr>
+      <tr>
+        <td><strong>United States (MST)</strong></td>
+        <td>Saturday, March 6, 2027:<br>12:00 PM &ndash; 4:00 PM MST</td>
+        <td>Saturday, March 6, 2027:<br>1:00 PM &ndash; 5:00 PM CST</td>
+      </tr>
+      <tr>
+        <td><strong>United States (PST)</strong></td>
+        <td>Saturday, March 6, 2027:<br>11:00 AM &ndash; 3:00 PM PST</td>
+        <td>Saturday, March 6, 2027:<br>1:00 PM &ndash; 5:00 PM CST</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
+
 <h2><a name="where"></a>What is the location? <small><small>[<a href='#top'>goto top</a>]</small></small></h2>
 
-The online track is hosted at different schools.
-You can either run a CCCS Host Site at your school or
-look for a CCCS Host Site near you.
+The following are the CCCS Host Sites, i.e., schools that will host
+the contest.
+You can also host a CCCS Host Site at your school -- see section
+<b>Where do I register?</b> below.
 Schools with enough manpower to welcome students from other schools are
-marked with OPEN below.
+marked with OPEN.
 <ul>
   <li>[Schools to appear]
 </ul>
@@ -360,7 +459,6 @@ marked with OPEN below.
     Here you go: <a href='comments.html'>comments</a>.
 
 
-
     
     <h2><a name="register"></a>Where do I register? <small><small>[<a href='#top'>goto top</a>]</small></small></h2>
     
@@ -374,8 +472,49 @@ marked with OPEN below.
 <p>
   Running a CCCS Host Site is as simple as completing the form below and proctoring the programming contest
   in a classroom. The guideline is below.
+
+  
   <ul>
-    <li>The proctor:student ratio is at most 1:15. 
+
+    <li>
+      The online track is reserved for high schools located outside a 2.5-hour driving radius of Columbia College as well as all international schools (schools within the radius may participate under the Travel Hardship Exception).
+    </li>
+    <li>
+      Cross-school teams are allowed.
+      A team of 1 member is also allowed.
+    </li>
+    <li>
+      All online track participants and teams must be fully formed,
+      registered in advance, and compete during their designated window under
+      the supervision of an approved  teacher-proctor.
+    </li>
+    <li>
+      An approved adult school sponsor can be a
+      teacher, counselor, or librarian.
+    </li>
+    <li>
+      Proctors cannot be biologically or legally related to participating students.
+    </li>
+    <li>The proctor:student ratio is at most 1:15.</li>
+    <li>All online track teams must be physically co-located in a supervised school environment (e.g., computer lab or library) under the direct supervision of the proctor.
+    </li>
+    <li>
+      Teacher-proctors should confirm whether students will use school-provided lab computers or personal laptops, and ensure that network access, school Wi-Fi, firewall permissions, or guest credentials are fully tested and configured prior to contest day to prevent last-minute hardware or connectivity issues.
+    </li>
+    <li>
+      Teacher-proctors must verify internet connectivity, browser compatibility, and HackerRank platform accessibility in the testing room prior to contest day (e.g., verifying that they can successfully open a web browser and navigate to http://hackerrank.com/) to prevent technical disruptions.
+    </li>
+    <li>
+      Students may bring strictly one commercially published programming language reference guide or beginner language textbook (focused on language syntax, mechanics, and standard libraries, e.g., Python Crash Course, Core Java), 
+Books dedicated primarily to Data Structures, Algorithms, or Competitive Programming (e.g., any text with "Algorithms", "Data Structures", or "Competitive Programming" in the title) are strictly prohibited.
+        </li>
+    <li>
+      Students may bring blank scratch paper and writing utensils (pens/pencils).</li>
+    <li>
+      Teachers may opt-in (during registration) to register their
+      school as an "Open Host Site" to welcome independent homeschooled
+      students or external participants from other schools.
+      </li>
   </ul>
 </p>
 
